@@ -1,5 +1,6 @@
 "use client"
-import { Sun } from 'lucide-react';
+import Image from "next/image";
+// import { Sun } from 'lucide-react';
 import { useState } from 'react';
 
 
@@ -20,7 +21,7 @@ export default function Hero() {
                     className="text-center"
                 >
                     <div className="flex justify-center mb-8">
-                        <Sun onClick={() => setSwitch(!Switch)} className="w-20 h-20 text-yellow-400 animate-pulse" />
+                        <Image onClick={() => setSwitch(!Switch)} className="w-20 h-20 text-yellow-400" src="/logo.png" alt="logo" quality={50} height={300} width={300} />
                     </div>
                     <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
                         Energía Solar para un

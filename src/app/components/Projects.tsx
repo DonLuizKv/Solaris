@@ -4,13 +4,11 @@ const projects = [
         title: "Residencial Villa Solar",
         description: "Instalación de paneles solares en 50 viviendas",
         image: "/photo-1508514177221-188b1cf16e9d.avif",
-        stats: "150kW instalados"
     },
     {
         title: "Centro Comercial Eco",
         description: "Sistema solar para autoconsumo comercial",
-        image: "",
-        stats: "500kW instalados"
+        image: "/",
     },
 
 ];
@@ -18,7 +16,7 @@ const projects = [
 export default function Projects() {
 
     return (
-        <section className="py-20 bg-gray-900">
+        <section className="py-20 bg-gray-800">
             <div className="container mx-auto px-6">
                 <h2 className="text-4xl font-bold text-center text-white mb-16">
                     Nuestros Proyectos
@@ -40,13 +38,10 @@ export default function Projects() {
                                 />
                             </div>
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent p-6 flex flex-col justify-end">
-                                <h3 className="text-xl font-semibold text-white mb-2">
+                                <h3 className="text-xl font-semibold text-yellow-400 mb-2">
                                     {project.title}
                                 </h3>
                                 <p className="text-gray-300 mb-2">{project.description}</p>
-                                <span className="text-yellow-400 font-semibold">
-                                    {project.stats}
-                                </span>
                             </div>
                         </div>
                     ))}

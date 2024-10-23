@@ -4,6 +4,7 @@ import Features from "./components/Features";
 import Projects from "./components/Projects";
 import Hero from "./components/Hero";
 import Contact from "./components/Contac";
+import SolarInformatic from "./components/SolarInformatic";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Benefits />
+      <SolarInformatic />
       <Projects />
       <Contact />
     </main>

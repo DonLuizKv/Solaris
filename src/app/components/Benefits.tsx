@@ -1,4 +1,4 @@
-import { SunMedium, Wind, TreePine, Factory } from 'lucide-react';
+import { SunMedium, Wind, TreePine, Factory, } from 'lucide-react';
 
 const benefits = [
     {
@@ -28,7 +28,7 @@ const benefits = [
         icon: <Factory className="w-8 h-8 text-purple-400" />,
         stat: "70%",
         statText: "Ahorro Energético"
-    }
+    },
 ];
 
 export default function Benefits() {
@@ -54,7 +54,7 @@ export default function Benefits() {
                             <h3 className="text-xl font-semibold text-white text-center mb-2">
                                 {benefit.title}
                             </h3>
-                            <p className="text-gray-400 text-center mb-4">
+                            <p className="text-gray-400 text-center mb-4 break-words">
                                 {benefit.description}
                             </p>
                             <div className="text-center">
