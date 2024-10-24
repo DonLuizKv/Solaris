@@ -33,5 +33,36 @@ Este proyecto se enfoca en explorar diferentes aspectos de la energía solar a t
 ├── 📄 package.json
 ├── 📄 README.md
 └── 📄 tailwind.config.js
+```
 
+## 🚧 Instalación y Uso
+- Requisitos Previos
+- Node.js y npm instalados.
+- Git para clonar el repositorio.
+
+Instalación
+Clona el repositorio:
+```bash
+git clone https://github.com/tu-usuario/solar-energy-experiments.git
+```
+
+1. Instala las dependencias:
+```bash
+cd solar-energy-experiments
+npm install
+```
+
+2. Ejecuta el proyecto en modo desarrollo:
+```
+```bash
+npm run dev
+```
+
+3. Abre tu navegador en **http://localhost:3000**.
+
+## 📜 Licencia
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+💬 Contacto
+Para más información o sugerencias, puedes contactarme a través de *luizkv4@outlook.com* o visita mi perfil de GitHub.
 
