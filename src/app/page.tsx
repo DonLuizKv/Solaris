@@ -41,7 +41,7 @@ export default function Home() {
               <video
                 src={selectedVideo}
                 controls
-                className="w-full h-[40rem] rounded-lg"
+                className="w-full h-[35rem] rounded-lg"
               ></video>
             )}
           </div>
