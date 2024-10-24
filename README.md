@@ -40,7 +40,7 @@ Este proyecto se enfoca en explorar diferentes aspectos de la energía solar a t
 - Node.js y npm instalados.
 - Git para clonar el repositorio.
 
-Instalación
+## Instalación
 Clona el repositorio:
 ```bash
 git clone https://github.com/tu-usuario/solar-energy-experiments.git
@@ -53,7 +53,6 @@ npm install
 ```
 
 2. Ejecuta el proyecto en modo desarrollo:
-```
 ```bash
 npm run dev
 ```
