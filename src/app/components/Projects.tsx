@@ -1,22 +1,23 @@
-import Image from "next/image";
+"use client"
+
+interface projectProps {
+    event: (videoUrl: string) => void;
+}
+
 const projects = [
     {
-        title: "Residencial Villa Solar",
-        description: "Instalación de paneles solares en 50 viviendas",
-        image: "/photo-1508514177221-188b1cf16e9d.avif",
+        title: "Experimento 1",
+        video: "/vide1.mp4",
     },
     {
-        title: "Centro Comercial Eco",
-        description: "Sistema solar para autoconsumo comercial",
-        image: "/",
+        title: "Experimento 2",
+        video: "/vide2.mp4",
     },
-
 ];
 
-export default function Projects() {
-
+export default function Projects({ event }: projectProps) {
     return (
-        <section className="py-20 bg-gray-800">
+        <section className="py-20 bg-gray-800 relative">
             <div className="container mx-auto px-6">
                 <h2 className="text-4xl font-bold text-center text-white mb-16">
                     Nuestros Proyectos
@@ -26,22 +27,14 @@ export default function Projects() {
                     {projects.map((project, index) => (
                         <div
                             key={index}
-                            className="relative group overflow-hidden rounded-xl"
+                            onClick={() => event(project.video)}
+                            className="relative group overflow-hidden rounded-xl cursor-pointer"
                         >
-                            <div className="aspect-w-16 aspect-h-9">
-                                <Image
-                                    src={project.image}
-                                    alt={project.title}
-                                    height={800}
-                                    width={800}
-                                    className="object-cover w-full h-64 transform group-hover:scale-110 transition-transform duration-300"
-                                />
-                            </div>
+                            <video src={project.video} className="h-[25rem] w-auto"></video>
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent p-6 flex flex-col justify-end">
                                 <h3 className="text-xl font-semibold text-yellow-400 mb-2">
                                     {project.title}
                                 </h3>
-                                <p className="text-gray-300 mb-2">{project.description}</p>
                             </div>
                         </div>
                     ))}
