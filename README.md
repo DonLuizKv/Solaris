@@ -62,6 +62,6 @@ npm run dev
 ## 📜 Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-💬 Contacto
+## 💬 Contacto
 Para más información o sugerencias, puedes contactarme a través de *luizkv4@outlook.com* o visita mi perfil de GitHub.
 
