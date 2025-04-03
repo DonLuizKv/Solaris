@@ -43,7 +43,7 @@ Este proyecto se enfoca en explorar diferentes aspectos de la energía solar a t
 ## Instalación
 Clona el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/solar-energy-experiments.git
+git clone https://github.com/tu-usuario/Solaris.git
 ```
 
 1. Instala las dependencias:
